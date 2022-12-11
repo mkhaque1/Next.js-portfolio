@@ -36,9 +36,6 @@ export default function Home() {
             <li>
              <a href="cv.pdf" download className=' flex hover:text-black duration-300 bg-gradient-to-r from-cyan-500 to-blue-500 text-white px-4 py-2 rounded-md ml-8'><svg className=' h-6 w-6 mt-1 animate-bounce'><AiFillDownCircle /></svg>Resume</a>
             </li>
-            <li>
-              <Link  href="/contact" className='flex hover:text-black duration-300 bg-gradient-to-r from-cyan-500 to-blue-500 text-white px-4 py-2 rounded-md ml-8'><svg className='animate-pulse h-6 w-6 mt-1'><AiFillCarryOut /></svg>Contact</Link>
-            </li>
           </ul>
           </nav>
           <div className=' text-center p-10'>
