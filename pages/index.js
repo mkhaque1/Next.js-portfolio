@@ -34,7 +34,7 @@ export default function Home() {
               <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className=' text-2xl cursor-pointer dark:text-white dark:hover:duration-300 ' />
             </li>
             <li>
-             <a href="cv.pdf" download className=' flex hover:text-black duration-300 bg-gradient-to-r from-cyan-500 to-blue-500 text-white px-4 py-2 rounded-md ml-8'><svg className=' h-6 w-6 mt-1 animate-bounce'><AiFillDownCircle /></svg>Resume</a>
+             <a href="CV-2024_New.pdf" download className=' flex hover:text-black duration-300 bg-gradient-to-r from-cyan-500 to-blue-500 text-white px-4 py-2 rounded-md ml-8'><svg className=' h-6 w-6 mt-1 animate-bounce'><AiFillDownCircle /></svg>Resume</a>
             </li>
           </ul>
           </nav>
@@ -61,7 +61,7 @@ export default function Home() {
             services that i offer
           </h3>
           <p className=' text-md py-3 leading-8 text-gray-800 dark:text-white '>
-            Since the beginning of my journey as a freelance designer and developer, i have done <span className='text-teal-500'>remote task </span>and worked 2 years almost as a professional <span className=' text-teal-500 font-bold'>frontend web designer</span> in Bangladesh, and now i'm learning backend as well. 
+            Since the beginning of my journey as a web designer & Developer in Germany, i have done <span className='text-teal-500'>remote task </span>and worked 2 years almost as a professional <span className=' text-teal-500 font-bold'>frontend web designer</span> in Bangladesh, and now i'm learning backend as well. 
           </p>
           <p className=' text-md py-3 leading-8 text-gray-800 dark:text-white '>
             I offer from a wide range of services, including programing and design for <span className=' text-teal-500'>web applications.</span>
@@ -92,8 +92,9 @@ export default function Home() {
               <p className='py-3'>Creating elegant designs suited for your new design theory</p>
               <h4 className='py-4 text-teal-500'>Pluggin tools that i used</h4>
               <p className='text-gray-800 py-2'>Elementor</p>
-              <p className='text-gray-800 py-2'>Gutenberg</p>
-              <p className='text-gray-800 py-2'>Woo Commerce</p>
+              <p className='text-gray-800 py-2'>Webflow</p>
+              <p className='text-gray-800 py-2'>Woo-Commerce</p>
+              <p className='text-gray-800 py-2'>Shopify</p>
             </div>
           </div>
         </section>
