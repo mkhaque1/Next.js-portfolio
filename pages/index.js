@@ -90,7 +90,7 @@ export default function Home() {
               <Image className='mx-auto py-3' src={consulting} width={100} height={100}/>
               <h3 className=' lg:text-2xl font-bold'>CMS </h3>
               <p className='py-3'>Creating elegant designs suited for your new design theory</p>
-              <h4 className='py-4 text-teal-500'>Pluggin tools that i used</h4>
+              <h4 className='py-4 text-teal-500'>Wordpress</h4>
               <p className='text-gray-800 py-2'>Elementor</p>
               <p className='text-gray-800 py-2'>Webflow</p>
               <p className='text-gray-800 py-2'>Woo-Commerce</p>
