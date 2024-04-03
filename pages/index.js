@@ -57,7 +57,7 @@ export default function Home() {
         </section>
         <section className='py-10'>
           <div>
-          <h3 className='text-3xl py-2 capitalize dark:text-white '>
+          <h3 className='text-3xl font-bold text-center py-2 capitalize dark:text-white '>
             services that i offer
           </h3>
           <p className=' text-md py-3 leading-8 text-gray-800 dark:text-white '>
@@ -73,8 +73,9 @@ export default function Home() {
               <h3  className=' lg:text-2xl font-bold'>Web Design</h3>
               <p className='py-3'>Creating elegant designs and static websites suited for your new design theory</p>
               <h4 className='py-4 text-teal-500'>Design tools that i used</h4>
+              <p className='text-gray-800 py-2'>CMS : WordPress, webflow</p>
               <p className='text-gray-800 py-2'>Html, Css</p>
-              <p className='text-gray-800 py-2'>JavaScripts plugins</p>
+              <p className='text-gray-800 py-2'>JavaScripts es6</p>
               <p className='text-gray-800 py-2'> Jq plugins</p>
             </div>
             <div className='text-center shadow-xl p-10 mb-10 dark:bg-white dark:rounded-lg transition-all duration-300 hover:translate-y-10 cursor-pointer'>
@@ -84,7 +85,7 @@ export default function Home() {
               <h4 className='py-4 text-teal-500'>FrameWork that i used</h4>
               <p className='text-gray-800 py-2'>Tailwind CSS</p>
               <p className='text-gray-800 py-2'>Next.js</p>
-              <p className='text-gray-800 py-2'>Bootstrap</p>
+              <p className='text-gray-800 py-2'>Bootstrap 5</p>
             </div>
             <div className='text-center shadow-xl p-10 mb-10 dark:bg-white dark:rounded-lg transition-all duration-300 hover:translate-y-10  cursor-pointer'>
               <Image className='mx-auto py-3' src={consulting} width={100} height={100}/>
@@ -100,7 +101,7 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className='text-3xl py-2 capitalize dark:text-white '>
+            <h3 className='text-3xl text-center font-bold py-2 capitalize dark:text-white '>
               Portfolio
              </h3>
             <p className=' text-md py-3 leading-8 text-gray-800 dark:text-white '>
@@ -129,8 +130,8 @@ export default function Home() {
             <div class="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black group-hover:from-black/70 group-hover:via-black/60 group-hover:to-black/70"></div>
             <div class="absolute inset-0 flex opacity-0 translate-y-[60%] flex-col items-center justify-center px-9 text-center transition-all duration-500 group-hover:opacity-100 group-hover:translate-y-0">
             <h1 class="font-dmserif text-3xl font-bold text-white">Nipro</h1>
-            <p class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">Agency portfolio design with Html, Css3, Bootstrap, js, Jq</p>
-            <a href='https://mkhaque1.github.io/Nipro-agency/' target="_blank" class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">Live</a>
+            <p class="mb-3 text-lg italic text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100">More project visit mkhaque.com</p>
+            <a href='https://mkhaque.com' target="_blank" class="rounded-full bg-neutral-900 py-2 px-3.5 font-com text-sm capitalize text-white shadow shadow-black/60">Live</a>
             </div>
             </div>
             <div className='group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30 basis-1/3 flex-1'>
