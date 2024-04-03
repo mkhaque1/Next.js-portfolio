@@ -6,6 +6,7 @@ import Image from 'next/image'
 import deved from "../public/pic1.png";
 import design from "../public/design.png";
 import code from "../public/code.png";
+import mylogo from "../public/mkhaque-logo.png";
 import consulting from "../public/consulting.png";
 import agency from "../public/d1.png";
 import card from "../public/d2.png";
@@ -28,7 +29,9 @@ export default function Home() {
       <main className=' bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900 dark:hover:duration-300'>
         <section className=' min-h-screen'>
           <nav className=' py-10 mb-15 flex justify-between'>
-            <a href='#' className=' uppercase text-xl text-blue-600 lg:text-2xl font-bold'>Mk Haque</a>
+            <a href='https://mkhaque.com' className=' uppercase text-xl text-blue-600 lg:text-2xl font-bold'>
+            <Image className='mx-auto py-3' src={mylogo} width={50} height={50}/>
+            </a>
           <ul className='flex items-center'>
             <li>
               <BsFillMoonStarsFill onClick={() => setDarkMode(!darkMode)} className=' text-2xl cursor-pointer dark:text-white dark:hover:duration-300 ' />
@@ -179,7 +182,14 @@ export default function Home() {
             </div>
             </div>
           </div>
+          <div>
+            <h1 className='text-3xl text-center font-bold py-2 dark:text-white'>CONTACT</h1>
+            <p className=' text-md py-5 leading-8 text-center text-gray-800 dark:text-white '>
+            to contact with me, visit: <span className='text-teal-500'><a href='https://mkhaque.com'>MKHAQUE</a> </span>and follow on my Linkedin <span className=' text-teal-500 font-bold'>Github or Youtube</span> Channel.
+            </p>
+          </div>
         </section>
+       
       </main>
       <footer className='bg-gray-700 py-9 text-center'>
           <div className=' flex justify-center'>
